@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ba27908-a6ca-4ffa-b978-3bcb1b30ab3c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brigedlabz/junit/UserValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brigedlabz/junit/UserValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/brigedlabz/junit/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brigedlabz/junit/RegistrationTest.java" afterDir="false" />
     </list>
@@ -44,7 +45,7 @@
       <recent name="com.brigedlabz.junit" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RegistrationTest.given_password2_should_returnTrue">
     <configuration name="RegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitTestUserRegistation" />
       <extension name="coverage">
@@ -60,8 +61,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationTest.given_password2_should_returnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitTestUserRegistation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brigedlabz.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brigedlabz.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.brigedlabz.junit.RegistrationTest" />
+      <option name="METHOD_NAME" value="given_password2_should_returnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest.given_password3_should_returnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitTestUserRegistation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brigedlabz.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.brigedlabz.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.brigedlabz.junit.RegistrationTest" />
+      <option name="METHOD_NAME" value="given_password3_should_returnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegistrationTest.given_password2_should_returnTrue" />
+        <item itemvalue="JUnit.RegistrationTest.given_password3_should_returnTrue" />
         <item itemvalue="JUnit.RegistrationTest" />
       </list>
     </recent_temporary>
