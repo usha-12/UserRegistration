@@ -38,5 +38,20 @@ public class RegistrationTest {
         Boolean result3 = validation.phoneNumber("91 7974492321");
         Assertions.assertEquals(result3, true);
     }
+    @Test
+    void given_password_should_returnTrue() {
+        UserValidation validation = new UserValidation();
+        Boolean result4 = validation.password("ushaahir");
+        Assertions.assertEquals(result4, true);
+    }
 
 }
+/*As a User need to
+follow pre
+
+-defined
+Password rules.
+Rule1
+
+– minimum 8
+Characters - NOTE – All rules must be passed*/
