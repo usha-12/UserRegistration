@@ -32,5 +32,11 @@ public class RegistrationTest {
         Boolean result2 = validation.checkEmailId("Ushaa.hirwar@gmail.com");
         Assertions.assertEquals(result2, true);
     }
+    @Test
+    void given_phoneNumber_should_returnTrue() {
+        UserValidation validation = new UserValidation();
+        Boolean result3 = validation.phoneNumber("91 7974492321");
+        Assertions.assertEquals(result3, true);
+    }
 
 }
