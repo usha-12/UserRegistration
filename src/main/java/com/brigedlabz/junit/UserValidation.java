@@ -6,6 +6,7 @@ public class UserValidation {
     public static final String EMAIL_ID="^[A-Za-z]{3,}[.]?[A-Za-z]{2,}[@]{1}[a-z]{2,}[.]{1}[a-z]{2,}$";
     public static final String PHONE_NUMBER="^[0-9]+\s[0-9]{10}$";
     public static final String PASSWORD_RULE1="^[a-z]{8,}$";
+    public static final String PASSWORD_RULE2="^[A-Z]+[a-z]{7,}$";
     public boolean checkFirstName(String firstName) {
         return (Pattern.matches(VALIDATE_NAME, firstName));
     }
@@ -24,10 +25,13 @@ public class UserValidation {
     public Boolean password(String password) {
         return (Pattern.matches(PASSWORD_RULE1,password));
     }
-}
-/*As a User need to
-follow pre
 
--defined
-Mobile Format - E.g. 91 9919819801 - Country code follow by space and 10
-digit number*/
+    public Boolean password2(String password1) {
+        return (Pattern.matches(PASSWORD_RULE2,password1));
+    }
+}
+/*Rule2
+
+– Should
+have at least 1
+Upper Case - NOTE – All rules must be passed*/

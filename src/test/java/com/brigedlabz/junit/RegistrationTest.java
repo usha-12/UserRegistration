@@ -44,14 +44,11 @@ public class RegistrationTest {
         Boolean result4 = validation.password("ushaahir");
         Assertions.assertEquals(result4, true);
     }
+    @Test
+    void given_password1_should_returnTrue() {
+        UserValidation validation = new UserValidation();
+        Boolean result5 = validation.password2("Ushaahir");
+        Assertions.assertEquals(result5, true);
+    }
 
 }
-/*As a User need to
-follow pre
-
--defined
-Password rules.
-Rule1
-
-– minimum 8
-Characters - NOTE – All rules must be passed*/
