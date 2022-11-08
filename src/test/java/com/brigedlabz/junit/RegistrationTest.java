@@ -50,5 +50,11 @@ public class RegistrationTest {
         Boolean result5 = validation.password2("Ushaahir");
         Assertions.assertEquals(result5, true);
     }
+    @Test
+    void given_password2_should_returnTrue() {
+        UserValidation validation = new UserValidation();
+        Boolean result6 = validation.password3("Ushaahi12");
+        Assertions.assertEquals(result6, true);
+    }
 
 }
