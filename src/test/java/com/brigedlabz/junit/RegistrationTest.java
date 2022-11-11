@@ -78,6 +78,3 @@ public class RegistrationTest {
         Assertions.assertEquals(result8, true);
     }
 }
-/*Should clear all
-email samples
-provided separately*/
