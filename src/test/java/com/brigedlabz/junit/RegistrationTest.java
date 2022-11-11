@@ -68,8 +68,16 @@ public class RegistrationTest {
 @Test
     void given_password3_should_returnTrue() {
         UserValidation validation = new UserValidation();
-        Boolean result7 = validation.password4("Ushaahir!12");
+        Boolean result7 = validation.password4("Ushaahi67@");
         Assertions.assertEquals(result7, true);
     }
-
+    @Test
+    void given_emailId_should_return_True(){
+        UserValidation validation = new UserValidation();
+        Boolean result8 = validation.checkEmailSeparate("abc@yahoo.com");
+        Assertions.assertEquals(result8, true);
+    }
 }
+/*Should clear all
+email samples
+provided separately*/
