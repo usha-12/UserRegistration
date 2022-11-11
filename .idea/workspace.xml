@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ba27908-a6ca-4ffa-b978-3bcb1b30ab3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/brigedlabz/junit/UserValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brigedlabz/junit/UserValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/brigedlabz/junit/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brigedlabz/junit/RegistrationTest.java" afterDir="false" />
     </list>
@@ -22,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="uc3_CheckEmail" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -33,19 +37,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.brigedlabz.junit" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegistrationTest.given_password2_should_returnTrue">
+  <component name="RunManager" selected="JUnit.RegistrationTest.given_password3_should_returnTrue">
     <configuration name="RegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitTestUserRegistation" />
       <extension name="coverage">
@@ -95,9 +99,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RegistrationTest.given_password2_should_returnTrue" />
         <item itemvalue="JUnit.RegistrationTest.given_password3_should_returnTrue" />
         <item itemvalue="JUnit.RegistrationTest" />
+        <item itemvalue="JUnit.RegistrationTest.given_password2_should_returnTrue" />
       </list>
     </recent_temporary>
   </component>
